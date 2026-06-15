@@ -1,0 +1,48 @@
+# Data
+data/*.csv
+data/*.zip
+data/*.tar.gz
+!data/.gitkeep
+
+# Submissions
+submissions/*.csv
+!submissions/.gitkeep
+
+# Saved models / checkpoints
+models/
+*.pt
+*.pth
+
+# Wandb
+wandb/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.pem
+kaggle.json
